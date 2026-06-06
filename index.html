@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My AI Chat</title>
+  <title>DeepBoxAI</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="box">
-  <h2> DeepBox-Ai </h2>
+<div class="app">
 
-  <div id="chat"></div>
-
-  <div class="input">
-    <input id="text" placeholder="Type message..." />
-    <button onclick="send()">Send</button>
+  <div class="topbar">
+    🤖 DeepBoxAI
   </div>
+
+  <div id="chat" class="chat-area">
+  </div>
+
+  <div class="bottom-bar">
+    <input id="text" placeholder="Ask anything..." />
+    <button onclick="send()">➤</button>
+  </div>
+
 </div>
 
 <script src="script.js"></script>
